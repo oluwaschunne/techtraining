@@ -1,0 +1,18 @@
+The Internet
+
+The internet is a global network of interconnected computers and devices that communicate through standardized protocols. It allows the exchange of information, data, and services worldwide. The internet's foundation relies on a vast network of wires and cables. Physical connections, such as Ethernet cables and fiber-optic cables, form the backbone of the wired infrastructure, ensuring reliable and high-speed data transmission. The following are components and terminologies associated with the internet.
+
+Wires:
+Wires refer to physical connections made of conductive materials used to transmit electrical signals.
+
+Cables:
+Cables are assemblies of wires bundled together for organization and protection.
+
+WiFi:
+WiFi, short for Wireless Fidelity, is a wireless networking technology that enables devices to connect to a local area network (LAN) without physical cables. It uses radio waves to transmit data between devices and a router.
+
+IP Addresses:
+IP addresses uniquely identify devices on a network. In the context of the Internet Protocol (IP), there are two types: IPv4 and IPv6. IPv4 addresses are common and expressed in a dotted-decimal format, while IPv6 addresses, designed to address the exhaustion of IPv4 addresses, are expressed in a hexadecimal format.
+
+DNS (Domain Name System):
+DNS is a system that translates human-readable domain names into IP addresses. It acts as a directory for the internet, enabling users to access websites using memorable domain names instead of numerical IP addresses. DNS plays a crucial role in simplifying the process of navigating the internet.
