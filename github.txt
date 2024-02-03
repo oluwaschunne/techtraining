@@ -1,0 +1,23 @@
+GITHUB
+
+GitHub is a code hosting platform that facilitates version control and collaboration between developers. It lets software developers work together on projects from anywhere. Launched in 2008, GitHub has become a central hub for developers, providing tools and features that enhance collaboration, code sharing, and project management. It major features include:
+
+Git Repository Hosting:
+GitHub hosts Git repositories, allowing developers to store, manage, and version control their code.
+
+Collaboration:
+Developers can collaborate on projects by cloning repositories, making changes in branches, and submitting pull requests for code review.
+
+Pull Requests:
+Pull requests (PRs) are a mechanism for proposing and discussing changes. Contributors can submit PRs, and repository owners can review, comment, and merge them.
+Issues:
+GitHub Issues provide a way to track and manage tasks, bugs, and enhancements. Issues can be assigned, labeled, and linked to pull requests.
+
+Code Review:
+GitHub offers built-in code review features, allowing team members to provide feedback on code changes within the context of pull requests.
+
+GitHub Actions:
+GitHub Actions enable automated workflows, such as continuous integration and deployment, directly within the GitHub repository.
+
+GitHub Pages:
+Developers can host static websites directly from their GitHub repositories using GitHub Pages.
