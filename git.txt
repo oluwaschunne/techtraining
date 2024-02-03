@@ -1,0 +1,112 @@
+GIT
+
+Git is a distributed version control system (DVCS) designed to track changes in source code during software development. Developed by Linus Torvalds in 2005, Git is widely used for its speed, flexibility, and collaboration features. It allows multiple developers to work on a project simultaneously, keeping track of changes and enabling seamless collaboration.
+
+
+How Git works
+-Here is a basic overview of how Git works:
+-Create a "repository" (project) with a git hosting tool (like Bitbucket)
+-Copy (or clone) the repository to your local machine
+-Add a file to your local repo and "commit" (save) the changes
+-"Push" your changes to your main branch
+-Make a change to your file with a git hosting tool and commit
+-"Pull" the changes to your local machine
+-Create a "branch" (version), make a change, commit the change
+-Open a "pull request" (propose changes to the main branch)
+-"Merge" your branch to the main branch
+
+
+Repository (Repo):
+A repository is a collection of files and their version history. It can be local (on your machine) or remote (on a server).
+
+Commit:
+A commit represents a snapshot of changes made to the repository. Each commit has a unique identifier and contains information about the changes.
+
+Branch:
+A branch is an independent line of development. It allows developers to work on features or fixes without affecting the main codebase. Branches can be merged to incorporate changes.
+
+Merge:
+Merging combines changes from different branches into a single branch, typically the main branch (e.g., master).
+
+Pull Request (PR):
+In Git-based platforms like GitHub, GitLab, or Bitbucket, a pull request is a way to propose changes to a repository. It allows others to review and discuss the changes before merging.
+
+Clone:
+Cloning creates a copy of a repository on your local machine. It establishes a connection between the local copy and the original repository.
+
+Fork:
+Forking is a way to create a personal copy of another user's repository. It allows you to make changes without affecting the original repository. Forked repositories can be used to submit pull requests.
+
+Remote:
+A remote is a version of the repository stored on another machine. Common remotes include origin (default name for the remote where you cloned from) and upstream (original repository).
+
+
+Basic Git Workflow:
+Initialize a Repository:
+git init: Initializes a new Git repository in the current directory.
+
+Clone a Repository:
+git clone <repository_url>: Creates a copy of a remote repository on your local machine.
+
+Create a Branch:
+git branch <branch_name>: Creates a new branch.
+git checkout <branch_name>: Switches to the specified branch.
+
+Make Changes:
+Modify files in your working directory.
+Stage Changes:
+
+git add <file>: Adds changes to the staging area.
+
+Commit Changes:
+git commit -m "Commit message": Records changes in the staging area with a commit message.
+
+Push Changes:
+git push origin <branch_name>: Sends local changes to the remote repository.
+
+Pull Changes:
+git pull origin <branch_name>: Retrieves changes from the remote repository and merges them into the local branch.
+
+Merge Branches:
+git merge <branch_name>: Merges changes from a branch into the current branch.
+
+Handling Conflicts:
+Resolve conflicts that arise during merges.
+
+View History:
+git log: Displays a log of commits.
+
+Git Platforms:
+GitHub:
+A web-based platform for hosting Git repositories. It provides collaboration features, issue tracking, and pull requests.
+
+GitLab:
+Similar to GitHub, GitLab is a web-based Git repository manager that offers source code management, CI/CD pipelines, and more.
+
+Bitbucket:
+Atlassian's Git solution, offering Git repositories, code collaboration, and integration with other Atlassian tools.
+
+Best Practices:
+Commit Regularly:
+Make small, focused commits regularly to capture changes incrementally.
+
+Use Descriptive Commit Messages:
+Write clear and concise commit messages that describe the purpose of the changes.
+
+Branch Strategically:
+Use branches for new features or bug fixes. Keep the main branch stable.
+
+Pull Before Push:
+Always pull changes from the remote repository before pushing to avoid conflicts.
+
+Review Pull Requests:
+Collaborate effectively by reviewing and commenting on pull requests.
+
+Use .gitignore:
+Specify files or patterns in a .gitignore file to exclude them from version control.
+
+Undo Changes:
+git reset, git revert, and git checkout can be used to undo changes.
+
+Keep Repositories Clean:
+Regularly clean up branches that are no longer needed.
