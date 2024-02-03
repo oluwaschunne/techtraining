@@ -1,0 +1,76 @@
+HyperText Transfer Protocol (HTTP)
+
+The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, and is used to load web pages using hypertext links, it is a fundamental protocol used for communication on the web. It is an application layer protocol designed to transfer information, such as text, images, videos and other multimedia, between networked devices and runs on top of other layers of the network protocol stack. A typical flow over HTTP involves a client machine making a request to a server, which then sends a response message.
+HTTP is the foundation of any data exchange on the web and operates on top of the TCP/IP protocol.
+
+
+HTTP request?
+An HTTP request is the way Internet communications platforms such as web browsers ask for the information they need to load a website. Each HTTP request made across the Internet carries with it a series of encoded data that carries different types of information.
+An HTTP request is a message sent by a client (such as a web browser) to a server to initiate a specific action. It consists of:
+
+Request Line: Specifies the HTTP method (GET, POST, etc.), the URI (Uniform Resource Identifier) of the resource, and the HTTP version.
+
+Headers: Additional metadata about the request, such as the type of data accepted by the client, authentication credentials, and caching preferences.
+
+Body (Optional): Some requests, like POST or PUT, may include a message body that contains data to be sent to the server. For example, in a POST request, the body often contains form data.
+
+
+HTTP METHOD:
+This, also referred to as an HTTP Verb, indicates the action that the HTTP reqquest expects from the queried server. Each HTTP method serves a specific purpose in the interaction between clients and servers. The most common ones include:
+1. GET:
+	Purpose: Retrieve data from a specified resource.
+2. POST:
+	Purpose: Submit data to be processed to a specified resource.
+3. PUT:
+	Purpose: Update a resource or create a new resource if it does not exist
+4. DELETE:
+	Purpose: Delete the specified resource.
+
+
+HTTP STATUS CODE:
+These are 3-digit codes most often used to indicate whether an HTTP request has been successfully completed. Status codes are broken into the following 5 blocks:
+1xx Informational
+2xx Success
+3xx Redirection
+4xx Client Error
+5xx Server Error
+
+1xx Informational
+-100 Continue:
+The server has received the initial part of the request, and the client can proceed with sending the rest.
+
+2xx Success
+-200 OK:
+The request was successful, and the server has returned the requested data.
+-201 Created:
+The request was successful, and a new resource was created as a result.
+-204 No Content:
+The server successfully processed the request but has no content to return.
+
+-3xx Redirection
+301 Moved Permanently:
+The requested resource has been permanently moved to a different location.
+302 Found (or 303 See Other):
+The requested resource is temporarily located at a different URI.
+304 Not Modified:
+The client's cached copy is up-to-date, and the requested resource has not been modified since the last request.
+
+-4xx Client Errors
+400 Bad Request:
+The server could not understand the request due to invalid syntax or other client-side errors.
+401 Unauthorized:
+Authentication is required, and the client has not provided valid credentials.
+403 Forbidden:
+The client does not have permission to access the requested resource.
+404 Not Found:
+The requested resource could not be found on the server.
+405 Method Not Allowed:
+The request method (GET, POST, etc.) is not allowed for the requested resource.
+
+-5xx Server Errors
+500 Internal Server Error:
+A generic error message indicating that the server encountered an unexpected condition.
+501 Not Implemented:
+The server does not support the functionality required to fulfill the request.
+503 Service Unavailable:
+The server is temporarily unable to handle the request, often due to maintenance or overloading.
